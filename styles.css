@@ -18,14 +18,14 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #33ff99;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(6, 18, 189);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: rgb(6, 18, 189);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(6, 18, 189);
 }
 
 header {
@@ -60,7 +60,7 @@ header {
   background: url('images/rsz_phoenixaz.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 header {
   line-height: 1.5;
@@ -68,11 +68,11 @@ header {
 
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid black;
-  transition: all .5s;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 10px solid rgb(0, 0, 0);
+  transition: all .50s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
@@ -87,7 +87,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 .card {
   margin: 30px;
@@ -101,6 +101,11 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+img {
+  display: inline-block;
+  margin: 25px 10px;
 }
 
 ul.skills {
@@ -150,7 +155,7 @@ a.social {
   height: 30px;
   background-size: 30px 30px;
   opacity: .4;
-  transition: all .5s;
+  transition: all 3s;
 }
 a.twitter {
   background-image: url(images/twitter.svg);
@@ -205,19 +210,7 @@ a.social:hover {
   }
 
 }
-/* Global Layout Set-up */
-* { 
-  box-sizing: border-box;
-}
-  
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
-}
+
 /* Link Styles */
 
 a {
@@ -233,7 +226,7 @@ a:hover {
 .main-nav {
   width: 100%;
   background: black;
-  min-height: 30px;
+  min-height: 90px;
   padding: 10px;
   position: fixed;
   text-align: center;
@@ -276,31 +269,10 @@ header {
 header {
   line-height: 1.5;
 }
-
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid black;
-  transition: all .5s;
-}
-
-header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
-}
-
-.tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-} 
+ 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 .card {
   margin: 30px;
@@ -312,8 +284,9 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+ 
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #11f7b2;
 }
 
 ul.skills {
@@ -355,31 +328,6 @@ footer ul li {
   display: inline-block;
 }
 
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
-a.social:hover {
-  opacity: 1;
-}
-.clearfix {
-  clear: both;
-}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -429,14 +377,14 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
+
+/* Hobbies Images */
+
+img {
+  padding: 5px;
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid black;
-  transition: all .5s;
 }
+
 
 
 
